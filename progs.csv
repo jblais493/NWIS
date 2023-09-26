@@ -1,0 +1,44 @@
+TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
+,xorg-server,Graphical server
+,xorg-xwininfo,allows querying information about windows.
+,xorg-xprop,window properties
+,xclip,
+,xdotool,
+,bat,
+,fzf,
+,brillo,backlight support
+,arandr,setup screens
+,polkit,manages user policies.
+,polybar,bar
+,bspwm,WM
+,dunst,Notifications
+,alacritty,terminal
+,zsh,replacement for bash
+,zsh-theme-powerlevel10k,theming for zsh
+,lf,file manager in terminal
+,tmux,
+,ranger,view files in neovim
+,ueberzug,images in terminal
+,rofi,program picker
+,rofi-pass,password-store support for rofi
+,pass,
+,rofi-emoji,pick emojis
+,noto-fonts-emoji,emoji fonts for rofi-emoji
+,nmap,
+,powertop,
+,redshift,
+,ttf-font-awesome,
+,otf-powerline-symbols-git,
+,ttf-font-awesome,
+,ttf-hack-nerd,
+,ttf-sarasa-gothic,allows glyphs in polybar
+,,
+,sxiv,Images
+,gimp,
+,neovim,
+,firefox-developer-edition,
+,emacs,
+,,
+,aspell,
+,texlive-full,
+,,
