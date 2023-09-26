@@ -3,6 +3,14 @@
 
 | TAG | NAME IN REPO (or git url) | PURPOSE (should be a verb phrase to sound right while installing) |
 |-----+---------------------------+-------------------------------------------------------------------|
+|     | base-devel                |                                                                   |
+|     | python-adblock            |                                                                   |
+|     | python-pip                |                                                                   |
+|     | python-requests           |                                                                   |
+|     | python-spotdl             |                                                                   |
+|     | xorg-xinit                |                                                                   |
+|     | xorg-xinput               |                                                                   |
+|     | xdg-utils                 |                                                                   |
 |     | xorg-server               | Graphical server                                                  |
 |     | xorg-xwininfo             | allows querying information about windows.                        |
 |     | xorg-xprop                | window properties                                                 |
@@ -11,44 +19,82 @@
 |     | bat                       |                                                                   |
 |     | fzf                       |                                                                   |
 |     | brillo                    | backlight support                                                 |
+|     | betterlockscreen          | screen locking application                                        |
 |     | arandr                    | setup screens                                                     |
 |     | polkit                    | manages user policies.                                            |
 |     | polybar                   | bar                                                               |
 |     | bspwm                     | WM                                                                |
+|     | sxhkd                     |                                                                   |
 |     | dunst                     | Notifications                                                     |
+|     | picom-jonaburg-git        | compositor for transparency                                       |
 |     | alacritty                 | terminal                                                          |
 |     | zsh                       | replacement for bash                                              |
 |     | zsh-theme-powerlevel10k   | theming for zsh                                                   |
 |     | lf                        | file manager in terminal                                          |
+|     | man-db                    |                                                                   |
+|     | networkmanager            |                                                                   |
+|     | ntfs-3g                   |                                                                   |
+|     | nfs-utils                 |                                                                   |
+|     | tar                       |                                                                   |
+|     | unrar                     |                                                                   |
+|     | unzip                     |                                                                   |
+|     | gzip                      |                                                                   |
+|     | p7zip                     |                                                                   |
+|     | udiskie                   |                                                                   |
+|     | cronie                    |                                                                   |
+|     | mpv                       |                                                                   |
+|     | yt-dlp                    | downloading of various media                                      |
+|     | x265                      | encoding                                                          |
+|     | x264                      | encoding                                                          |
+|     | ffmpeg                    |                                                                   |
+|     | flac                      |                                                                   |
 |     | tmux                      |                                                                   |
 |     | ranger                    | view files in neovim                                              |
 |     | ueberzug                  | images in terminal                                                |
+|     | zathura                   |                                                                   |
+|     | zathura-pdf-mupdf         |                                                                   |
 |     | rofi                      | program picker                                                    |
 |     | rofi-pass                 | password-store support for rofi                                   |
 |     | pass                      |                                                                   |
 |     | rofi-emoji                | pick emojis                                                       |
 |     | noto-fonts-emoji          | emoji fonts for rofi-emoji                                        |
-|     | nmap                      |                                                                   |
-|     | powertop                  |                                                                   |
-|     | redshift                  |                                                                   |
+|     | nmap                      | network evaluation                                                |
+|     | wget                      |                                                                   |
+|     | curl                      |                                                                   |
+|     | git                       |                                                                   |
+|     | github-cli                |                                                                   |
+|     | tea                       |                                                                   |
+|     | which                     |                                                                   |
+|     | whois                     |                                                                   |
+|     | clang                     |                                                                   |
+|     | cmake                     |                                                                   |
+|     | powertop                  | power management                                                  |
+|     | upower                    |                                                                   |
+|     | redshift                  | utility for reducing bluelight exposure                           |
 |     | ttf-font-awesome          |                                                                   |
 |     | otf-powerline-symbols-git |                                                                   |
 |     | ttf-font-awesome          |                                                                   |
 |     | ttf-hack-nerd             |                                                                   |
 |     | ttf-sarasa-gothic         | allows glyphs in polybar                                          |
-|     |                           |                                                                   |
 |     | sxiv                      | Images                                                            |
-|     | gimp                      |                                                                   |
-|     | neovim                    |                                                                   |
-|     | firefox-developer-edition |                                                                   |
-|     | emacs                     |                                                                   |
+|     | gimp                      | program for editing images                                        |
+|     | neofetch                  |                                                                   |
+|     | neovim                    | terminal based text editor                                        |
+|     | neovim-airline            |                                                                   |
+|     | neovim-everforest-git     |                                                                   |
+|     | firefox-developer-edition | development browser                                               |
+|     | qutebrowser               | browser with vim binds                                            |
+|     | qbittorrent               |                                                                   |
+|     | emacs                     | emacs                                                             |
+|     | aspell                    | spelling support                                                  |
+|     | aspell-en                 | english support for spelling                                      |
+|     | texlive-full              | latex                                                             |
+|     | ghostscript               |                                                                   |
+|     | gajim                     |                                                                   |
+|     | signal-desktop            |                                                                   |
+|     | telegram-desktop          |                                                                   |
 |     |                           |                                                                   |
-|     | aspell                    |                                                                   |
-|     | texlive-full              |                                                                   |
-|     |                           |                                                                   |
 
 
-
-| G   |                           |                                                                   |
-
+# To add
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
