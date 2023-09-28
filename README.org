@@ -1,0 +1,7 @@
+#title: NWIS Installation Script
+
+The Nowhere Installation Script for Arch based linux distributions
+
+*Nowhere* is a compilation of dotfiles, settings, and programs that aid in minimalist computing utilizing emacs, command line programs, and sensible defaults in a BSPWM Window Management system.  The goal is to reduce latency between input and action, allowing those that wish to create faster and go further with open source and free programs.
+
+Credit to Luke Smith (lukesmith.xyz) for his LARBS script that helped me to create this easy-install script.
